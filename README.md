@@ -63,7 +63,7 @@ Aeka-Assignments/
 
 * **Tech Stack:** Python, PyTorch, Scikit-Learn.
 
-### [3. Cricket World Cup Dashboard](https://github.com/ABHRADEEP800/Aeka-Assignments/tree/main/BI%20%26%20Data%20Visualization)
+### [3. Cricket World Cup Dashboard](https://github.com/ABHRADEEP800/Aeka-Assignments/tree/main/Cricket%20World%20Cup%20Dashboard)
 
 **Domain:** Business Intelligence & Visualization
 
