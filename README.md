@@ -2,6 +2,11 @@
 
 ### Solutions by Abhradeep Biswas
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Google Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=google-looker-studio&logoColor=white)
+
 ## 📖 Overview
 
 This repository hosts the complete suite of technical solutions for the **Aeka** assessment. The projects demonstrate competencies in **Data Engineering**, **Machine Learning**, and **Business Intelligence**.
@@ -41,40 +46,49 @@ Aeka-Assignments/
 
 **Domain:** Data Engineering
 
-* **Goal:** Build a location-based recommendation engine for travel destinations in India.
-* **Key Features:**
-* Enriched geospatial data for Indian cities.
-* Real-time distance calculation using the **Haversine Formula**.
-* Weighted ranking algorithm (Distance vs. Popularity vs. Rating).
+* **🎯 Goal:** Build a location-based recommendation engine for travel destinations in India.
+* **✨ Key Features:**
+* **Enriched Geospatial Data:** Added missing coordinates for major Indian cities to enable spatial calculations.
+* **Real-time Distance Logic:** Implemented the **Haversine Formula** to calculate accurate travel distances from the user's input city.
+* **Smart Ranking:** A weighted algorithm that balances *Distance (50%)*, *Rating (30%)*, and *Popularity (20%)*.
 
 
-* **Tech Stack:** Python, Pandas, NumPy.
+* **🛠 Tech Stack:**
+> `Python` `Pandas` `NumPy`
+
+
 
 ### [2. Spotify Lyric Search](https://github.com/ABHRADEEP800/Aeka-Assignments/tree/main/Spotify%20Lyric%20Search)
 
 **Domain:** Machine Learning (NLP)
 
-* **Goal:** Develop an algorithm to identify songs from short lyric snippets.
-* **Key Features:**
-* **Content-Based Information Retrieval** system.
-* **TF-IDF Vectorization** for text preprocessing.
-* **PyTorch Sparse Tensors** for scalable, high-speed similarity search across ~57,000 songs.
+* **🎯 Goal:** Develop an algorithm to identify songs from short lyric snippets.
+* **✨ Key Features:**
+* **Content-Based Retrieval:** Implemented a search engine rather than a classifier to handle 50,000+ potential classes.
+* **TF-IDF Vectorization:** Preprocessing pipeline including tokenization, stop-word removal, and n-grams.
+* **Scalable Search:** Utilized **PyTorch Sparse Tensors** to perform instant similarity matching across the entire ~57,000 song dataset.
 
 
-* **Tech Stack:** Python, PyTorch, Scikit-Learn.
+* **🛠 Tech Stack:**
+> `Python` `PyTorch` `Scikit-Learn`
+
+
 
 ### [3. Cricket World Cup Dashboard](https://github.com/ABHRADEEP800/Aeka-Assignments/tree/main/Cricket%20World%20Cup%20Dashboard)
 
 **Domain:** Business Intelligence & Visualization
 
-* **Goal:** Analyze match results and player performance for the 2024 T20 World Cup.
-* **Key Features:**
-* Interactive filtering by Country, Player, and Venue.
-* Geospatial mapping of match winners.
-* Comparative analytics for batting aggression and bowling economy.
+* **🎯 Goal:** Analyze match results and player performance for the 2024 T20 World Cup.
+* **✨ Key Features:**
+* **Interactive Filters:** Dynamic drilling by Country, Player, and Venue.
+* **Geospatial Intelligence:** Bubble maps visualizing winning margins by venue location.
+* **Advanced Metrics:** Comparative analytics for batting aggression (Strike Rate/Boundaries) and bowling efficiency.
 
 
-* **Tech Stack:** Google Looker Studio, Google Sheets.
+* **🛠 Tech Stack:**
+> `Google Looker Studio` `Google Sheets`
+
+
 
 ---
 
@@ -91,7 +105,7 @@ pip install torch scikit-learn
 
 ```
 
-*Note: Please navigate to the specific folders and read the individual `README.md` files for detailed "How to Run" instructions and file path configurations.*
+> **Note:** Please navigate to the specific folders and read the individual `README.md` files for detailed "How to Run" instructions and file path configurations.
 
 ---
 
